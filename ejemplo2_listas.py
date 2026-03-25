@@ -7,7 +7,7 @@ posiciones_x = [2, 2, 0, -2, 2, -6]
 masa_total = 0
 momento_total = 0
 
-for i in range(len(masas)):
+for i in range(len(masas)):  ## el len hace que se repita el for el numero de veces segun el numero de objetos de la lista masas    
     masa_total += masas[i]
     momento_total += masas[i] * posiciones_x[i]
 
