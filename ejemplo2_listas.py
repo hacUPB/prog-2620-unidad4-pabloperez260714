@@ -14,3 +14,4 @@ for i in range(len(masas)):  ## el len hace que se repita el for el numero de ve
 centro_masa_x = momento_total / masa_total
 
 print(f"Centro de masa en eje X: {centro_masa_x:.2f} m")
+ 
