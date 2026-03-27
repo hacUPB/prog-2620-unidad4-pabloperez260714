@@ -34,7 +34,7 @@ flota["N789AA"] = {
 # Actualizar datos de mantenimiento
 flota["N456AA"]["estado"] = "En servicio"
 flota["N456AA"]["horas_vuelo"] += 12  # Después de un vuelo
-flota["N456AA"]["ciclos"] += 1
+flota["N456AA"]["ciclos"] += 1 
 
 # Mostrar información detallada
 for matricula, datos in flota.items():
